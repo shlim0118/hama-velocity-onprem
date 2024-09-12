@@ -76,7 +76,7 @@ pipeline {
                     slackSend (
                     channel: '#velocity-cicd',
                     color: '#FFFF00',
-                    message: "UM... set rep 2 ... On-prem server is overloaded... um"
+                    message: "UM... set rep 2 ... On-prem server is overloaded... um 4 "
                 )
                     sh 'echo successs test1'
                 }
