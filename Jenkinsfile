@@ -4,7 +4,7 @@ pipeline {
         GITNAME = 'shlim0118'
         GITMAIL = 'tim02366@naver.com'
         GITWEBADD = 'https://github.com/shlim0118/hama-velocity-onprem.git'
-        GITSSHADD = 'git@github.com:shlim0118/velocity-onprem-deploy.git'
+        GITSSHADD = 'git@github.com:shlim0118/hama-deployment.git'
         GITCREDENTIAL = 'git_cre'
         ECR = '756266714368.dkr.ecr.ap-northeast-2.amazonaws.com/velocity'
         AWSCREDENTIAL = 'aws_cre'
@@ -59,7 +59,10 @@ pipeline {
                     git credentialsId: GITCREDENTIAL, url: GITSSHADD, branch: 'main'
                     sh "git config --global user.email ${GITMAIL}"
                     sh "git config --global user.name ${GITNAME}"
-                    sh "sed -i 's@${ECR}:onprem_.*@${ECR}:onprem_${currentBuild.number}@g' velocity-onprem.yaml"
+                    sh """
+                        cd velocity-onprem
+                        sed -i 's@${ECR}:onprem_.*@${ECR}:onprem_${currentBuild.number}@g' velocity-onprem.yaml"
+                    """
 
                     sh 'git add .'
                     sh 'git branch -M main'
@@ -76,7 +79,7 @@ pipeline {
                     slackSend (
                     channel: '#velocity-cicd',
                     color: '#FFFF00',
-                    message: "UM... set rep 2 ... On-prem server is overloaded... um 4 "
+                    message: "UM... set rep 2 ... On-prem server is overloaded... um "
                 )
                     sh 'echo successs test1'
                 }
