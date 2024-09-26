@@ -78,6 +78,7 @@ farm = "a55935f1b55524f9d9309f9e0c11843c-1750a57029c794ae.elb.ap-northeast-2.ama
 fish = "aa34dbda2afbe45c38d9a5cec19c7420-c48d9becddb2efbc.elb.ap-northeast-2.amazonaws.com:30002"
 wild = "a79d9244c0fdf4815ad7826108bc90cc-0a57ad5b66322113.elb.ap-northeast-2.amazonaws.com:30003"
 
+
 # In what order we should try servers when a player logs in or is kicked from a server.
 try = [
     "lobby-sub"
