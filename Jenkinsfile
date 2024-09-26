@@ -61,7 +61,7 @@ pipeline {
                     sh "git config --global user.name ${GITNAME}"
                     sh """
                         cd velocity-onprem
-                        sed -i 's@${ECR}:onprem_.*@${ECR}:onprem_${currentBuild.number}@g' velocity-onprem.yaml"
+                        sed -i 's@${ECR}:onprem_.*@${ECR}:onprem_${currentBuild.number}@g' velocity-onprem.yaml
                     """
 
                     sh 'git add .'
