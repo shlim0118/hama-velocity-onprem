@@ -72,7 +72,7 @@ enable-player-address-logging = true
 [servers]
 # Configure your servers here. Each key represents the server's name, and the value
 # represents the IP address of the server to connect to.
-lobby = "onPrem-lobby-nlb-35f4dff527af275e.elb.ap-northeast-2.amazonaws.com:25565"
+lobby = "onpremTown-nlb-47ffad2562eca96a.elb.ap-northeast-2.amazonaws.com:25565"
 lobby-sub = "a558a326fb716471ab8d67b6ef4c1538-85429815f51d935b.elb.ap-northeast-2.amazonaws.com:30000"
 farm = "a55935f1b55524f9d9309f9e0c11843c-1750a57029c794ae.elb.ap-northeast-2.amazonaws.com:30001"
 fish = "aa34dbda2afbe45c38d9a5cec19c7420-c48d9becddb2efbc.elb.ap-northeast-2.amazonaws.com:30002"
