@@ -80,7 +80,7 @@ wild = "a79d9244c0fdf4815ad7826108bc90cc-0a57ad5b66322113.elb.ap-northeast-2.ama
 
 # In what order we should try servers when a player logs in or is kicked from a server.
 try = [
-    "lobby"
+    "lobby-sub"
 ]
 
 [forced-hosts]
