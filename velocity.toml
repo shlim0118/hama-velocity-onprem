@@ -73,10 +73,10 @@ enable-player-address-logging = true
 # Configure your servers here. Each key represents the server's name, and the value
 # represents the IP address of the server to connect to.
 lobby = "onPrem-lobby-nlb-35f4dff527af275e.elb.ap-northeast-2.amazonaws.com:25565"
-lobby-sub = "ae72667b1a4e54844a3c22171117e0b3-c51aa1bcb223242b.elb.ap-northeast-2.amazonaws.com:30000"
-farm = "aaa53490c8cb14c0f95dcb358371b4c2-e79d902803e28547.elb.ap-northeast-2.amazonaws.com:30001"
-fish = "a5d80cd3311034b71a0e916ff8970998-d345e37716a4a07c.elb.ap-northeast-2.amazonaws.com:30002"
-wild = "a73f9b761ead645a1bfb1ac9f0d4a92c-2efb9b97baa700ec.elb.ap-northeast-2.amazonaws.com:30003"
+lobby-sub = "a558a326fb716471ab8d67b6ef4c1538-85429815f51d935b.elb.ap-northeast-2.amazonaws.com:30000"
+farm = "a55935f1b55524f9d9309f9e0c11843c-1750a57029c794ae.elb.ap-northeast-2.amazonaws.com:30001"
+fish = "aa34dbda2afbe45c38d9a5cec19c7420-c48d9becddb2efbc.elb.ap-northeast-2.amazonaws.com:30002"
+wild = "a79d9244c0fdf4815ad7826108bc90cc-0a57ad5b66322113.elb.ap-northeast-2.amazonaws.com:30003"
 
 # In what order we should try servers when a player logs in or is kicked from a server.
 try = [
