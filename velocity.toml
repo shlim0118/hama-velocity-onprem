@@ -74,9 +74,9 @@ enable-player-address-logging = true
 # represents the IP address of the server to connect to.
 lobby = "onpremTown-nlb-47ffad2562eca96a.elb.ap-northeast-2.amazonaws.com:25565"
 lobby-sub = "a558a326fb716471ab8d67b6ef4c1538-85429815f51d935b.elb.ap-northeast-2.amazonaws.com:30000"
-farm = "a55935f1b55524f9d9309f9e0c11843c-1750a57029c794ae.elb.ap-northeast-2.amazonaws.com:30001"
+farm = "a8ee3263615454b738eafd23f5683c0b-e9ac96a23f5a6472.elb.ap-northeast-2.amazonaws.com:30001"
 fish = "aa34dbda2afbe45c38d9a5cec19c7420-c48d9becddb2efbc.elb.ap-northeast-2.amazonaws.com:30002"
-wild = "a79d9244c0fdf4815ad7826108bc90cc-0a57ad5b66322113.elb.ap-northeast-2.amazonaws.com:30003"
+wild = "abbf1388a029a463ab7cbc307e453d7b-7ead8c11e43e132c.elb.ap-northeast-2.amazonaws.com:30003"
 
 
 # In what order we should try servers when a player logs in or is kicked from a server.
